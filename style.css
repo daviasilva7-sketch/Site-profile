@@ -115,7 +115,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'><path d='M0,0 C30,40 10,70 0,100 L100,100 L100,0 Z' fill='%23ffca3a'/></svg>");
     background-size: cover;
 }
 
@@ -123,7 +122,6 @@ body {
     content: "";
     position: absolute;
     top: 0; left: -80px; width: 80px; height: 100%;
-    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'><path d='M100,0 C30,20 60,70 100,100 Z' fill='%23ffca3a'/></svg>");
     background-size: 100% 100%;
     pointer-events: none;
 }
@@ -161,7 +159,7 @@ body {
     z-index: 1;
 }
 
-@media (max-width: 900px) {
+{
     .portfolio-container {
         grid-template-columns: 1fr;
         background: #ffb627;
